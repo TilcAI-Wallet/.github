@@ -20,3 +20,7 @@ Cuando un agente compra un informe o consume una API de pago, el negocio necesit
 ### Centro de sesiones
 
 La vista de **Sesiones** reúne accesos de web y móvil, vínculos de canales y clientes de agentes. Cada fila muestra cliente, instalación, estado y última actividad. La primera integración combina web móvil y MCP. La visión del producto incluye Codex, Claude, OpenCode, Telegram, WhatsApp según el flujo permitido, extensión de navegador, CLI y TUI.
+
+### Una tarjeta por sesión de agente
+
+Cada sesión habilitada para gastar tiene una subcuenta Stellar propia. La vista principal consolida los saldos y conserva el disponible de la cuenta principal. La tarjeta muestra saldo, gasto, compras en curso, límites y extracto. Dos instalaciones del mismo agente pueden operar con presupuestos independientes.
