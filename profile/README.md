@@ -16,3 +16,7 @@ Cuando un agente compra un informe o consume una API de pago, el negocio necesit
 2. **Fondea** su tarjeta desde la cuenta principal. Fija el máximo por compra, el tope acumulado, los destinos admitidos y el vencimiento.
 3. **Revisa** la orden, el pago en Stellar y la evidencia de entrega desde la actividad de la tarjeta.
 4. **Controla** el acceso desde el móvil. Puedes cerrar una sesión, congelar nuevas compras o revocar el permiso y recuperar el remanente.
+
+### Centro de sesiones
+
+La vista de **Sesiones** reúne accesos de web y móvil, vínculos de canales y clientes de agentes. Cada fila muestra cliente, instalación, estado y última actividad. La primera integración combina web móvil y MCP. La visión del producto incluye Codex, Claude, OpenCode, Telegram, WhatsApp según el flujo permitido, extensión de navegador, CLI y TUI.
