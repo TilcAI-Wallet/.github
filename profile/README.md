@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner-porcelana.webp" alt="TilcAI Wallet. Tu wallet. Tus agentes. Tú pones los límites. Tarjetas de Claude, OpenCode y Codex." width="100%">
+  <img src="./assets/banner-porcelana.webp" alt="TilcAI Wallet. Tu wallet. Tus agentes. Tú pones los límites. Mascota de TilcAI y tarjetas de Claude, OpenCode y Codex." width="100%">
 </p>
 
 <p align="center">
