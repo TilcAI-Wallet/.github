@@ -47,3 +47,7 @@ Una agencia fondea **25 USDC de prueba** para la sesión **Codex · Portátil**,
 ## Para quién
 
 TilcAI Wallet se enfoca inicialmente en agencias de software, fintechs y equipos que delegan compras recurrentes de servicios digitales. Los primeros casos incluyen informes de debida diligencia, consultas a APIs y herramientas por consumo. El valor se mide con compras conciliadas, evidencia de entrega y el tiempo que toma revisar cada gasto.
+
+## Arquitectura
+
+Stellar aporta cuentas de contrato, liquidación y políticas de autorización. El gateway valida la sesión, coordina la orden y concilia la transacción con el proveedor. La interfaz recibe eventos de actividad y presenta el estado a partir de confirmaciones del ledger. El flujo de pagos evalúa la compatibilidad de x402 con la subcuenta y contempla liquidación directa en testnet durante la validación. [Cuentas de contrato en Stellar](https://developers.stellar.org/docs/build/guides/contract-accounts) · [x402 en Stellar](https://developers.stellar.org/docs/build/agentic-payments/x402/quickstart-guide)
