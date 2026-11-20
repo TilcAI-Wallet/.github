@@ -9,3 +9,10 @@ TilcAI Wallet permite conectar un agente, fondear una tarjeta para su sesión y 
 ## El problema
 
 Cuando un agente compra un informe o consume una API de pago, el negocio necesita reconstruir quién autorizó el gasto, qué se pidió, a quién se pagó y qué se recibió. A medida que crecen las sesiones y los proveedores, esa información queda repartida entre clientes, transacciones y sistemas de entrega.
+
+## Cómo funciona
+
+1. **Conecta** una instalación de un agente y aprueba su sesión desde la wallet.
+2. **Fondea** su tarjeta desde la cuenta principal. Fija el máximo por compra, el tope acumulado, los destinos admitidos y el vencimiento.
+3. **Revisa** la orden, el pago en Stellar y la evidencia de entrega desde la actividad de la tarjeta.
+4. **Controla** el acceso desde el móvil. Puedes cerrar una sesión, congelar nuevas compras o revocar el permiso y recuperar el remanente.
