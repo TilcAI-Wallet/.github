@@ -28,3 +28,14 @@ Cada sesión habilitada para gastar tiene una subcuenta Stellar propia. La vista
 ### Control de acceso y gasto
 
 El diseño conserva la autoridad del dueño mediante una passkey. El firmante delegado de la sesión opera dentro de las reglas de su subcuenta. Cerrar el acceso invalida la credencial del cliente. Congelar bloquea nuevas solicitudes y el panel indica cuándo se confirma el cambio en Stellar. La revocación retira el permiso de gasto y permite recuperar el saldo una vez conciliados los pagos pendientes.
+
+## Qué hace verificable una compra
+
+| Evidencia | Qué permite revisar |
+| --- | --- |
+| **Permiso** | Sesión, tarjeta, proveedor admitido, topes y vigencia aprobados. |
+| **Orden** | Servicio solicitado, importe y destinatario. |
+| **Pago** | Activo, importe, red, hash y confirmación en Stellar. |
+| **Entrega** | Referencia y estado del servicio reportado por el proveedor. |
+
+La wallet conserva el estado **«Pagado, pendiente de entrega»** hasta recibir la evidencia del proveedor. El recibo mantiene el mismo identificador al pasar de MCP al panel móvil.
