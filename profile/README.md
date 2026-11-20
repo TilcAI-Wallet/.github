@@ -61,3 +61,7 @@ Stellar aporta cuentas de contrato, liquidación y políticas de autorización. 
 | **Paquetes** | Dominio wallet, contratos de API, SDK y adaptador a TilcAI. |
 | **Contratos** | Integración de smart accounts y reglas de gasto en Soroban. |
 | **Pruebas** | Aislamiento entre sesiones, liquidación, duplicados, congelación y recuperación. |
+
+### Construido sobre TilcAI
+
+El producto reutiliza la base de **TilcAI** para cuentas, WebAuthn, pagos x402, relayer y monitorización. El monorepo incorpora la experiencia de wallet, el ciclo de vida de las sesiones y tarjetas y la evidencia de compra. Las rutas de fondeo adicionales se habilitan después de verificar la red, el activo y la conciliación. [Infraestructura de TilcAI](https://github.com/TilcAI/tilcai-infrastructure)
