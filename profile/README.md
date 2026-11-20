@@ -39,3 +39,7 @@ El diseño conserva la autoridad del dueño mediante una passkey. El firmante de
 | **Entrega** | Referencia y estado del servicio reportado por el proveedor. |
 
 La wallet conserva el estado **«Pagado, pendiente de entrega»** hasta recibir la evidencia del proveedor. El recibo mantiene el mismo identificador al pasar de MCP al panel móvil.
+
+### Ejemplo de flujo en testnet
+
+Una agencia fondea **25 USDC de prueba** para la sesión **Codex · Portátil**, con un máximo de **0,50 USDC por informe** y un proveedor autorizado. El agente solicita una consulta por MCP. Al confirmar el pago, el móvil muestra **24,50 USDC** de saldo en la tarjeta, suponiendo comisiones patrocinadas fuera de ese saldo. La agencia revisa el informe en el recibo y congela la tarjeta si quiere detener nuevas compras.
