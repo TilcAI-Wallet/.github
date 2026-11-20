@@ -43,3 +43,7 @@ La wallet conserva el estado **«Pagado, pendiente de entrega»** hasta recibir 
 ### Ejemplo de flujo en testnet
 
 Una agencia fondea **25 USDC de prueba** para la sesión **Codex · Portátil**, con un máximo de **0,50 USDC por informe** y un proveedor autorizado. El agente solicita una consulta por MCP. Al confirmar el pago, el móvil muestra **24,50 USDC** de saldo en la tarjeta, suponiendo comisiones patrocinadas fuera de ese saldo. La agencia revisa el informe en el recibo y congela la tarjeta si quiere detener nuevas compras.
+
+## Para quién
+
+TilcAI Wallet se enfoca inicialmente en agencias de software, fintechs y equipos que delegan compras recurrentes de servicios digitales. Los primeros casos incluyen informes de debida diligencia, consultas a APIs y herramientas por consumo. El valor se mide con compras conciliadas, evidencia de entrega y el tiempo que toma revisar cada gasto.
