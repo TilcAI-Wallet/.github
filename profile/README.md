@@ -75,3 +75,7 @@ La siguiente etapa prueba dos tarjetas independientes, reconexión de sesiones y
 ## Stellar Bolivia
 
 TilcAI Wallet se plantea para la **National Startups Hackathon 2026** como una herramienta de control y conciliación para equipos que compran servicios mediante agentes. [Convocatoria de Stellar Bolivia](https://www.stellar-bolivia.xyz/)
+
+## English summary
+
+**TilcAI Wallet** is a Stellar wallet for accountable AI agent purchases. Each spending-enabled agent session gets a funded smart-account card with its own limits. Owners manage sessions and spending from mobile, while purchase receipts connect permission, order, settlement, and delivery. The product is designed as a monorepo that integrates with the existing TilcAI infrastructure.
