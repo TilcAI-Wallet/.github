@@ -71,3 +71,7 @@ El producto reutiliza la base de **TilcAI** para cuentas, WebAuthn, pagos x402, 
 El proyecto está en diseño e integración. La primera validación busca reproducir un ciclo completo en Stellar testnet: desplegar y fondear una subcuenta, pagar desde MCP, consultar el recibo, congelar la tarjeta, comprobar el rechazo de un nuevo intento y recuperar el remanente tras revocar el permiso.
 
 La siguiente etapa prueba dos tarjetas independientes, reconexión de sesiones y continuidad con más canales. La disponibilidad de cada integración se publica al completar sus pruebas.
+
+## Stellar Bolivia
+
+TilcAI Wallet se plantea para la **National Startups Hackathon 2026** como una herramienta de control y conciliación para equipos que compran servicios mediante agentes. [Convocatoria de Stellar Bolivia](https://www.stellar-bolivia.xyz/)
