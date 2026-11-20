@@ -51,3 +51,13 @@ TilcAI Wallet se enfoca inicialmente en agencias de software, fintechs y equipos
 ## Arquitectura
 
 Stellar aporta cuentas de contrato, liquidación y políticas de autorización. El gateway valida la sesión, coordina la orden y concilia la transacción con el proveedor. La interfaz recibe eventos de actividad y presenta el estado a partir de confirmaciones del ledger. El flujo de pagos evalúa la compatibilidad de x402 con la subcuenta y contempla liquidación directa en testnet durante la validación. [Cuentas de contrato en Stellar](https://developers.stellar.org/docs/build/guides/contract-accounts) · [x402 en Stellar](https://developers.stellar.org/docs/build/agentic-payments/x402/quickstart-guide)
+
+### Monorepo de producto
+
+| Área | Responsabilidad |
+| --- | --- |
+| **Apps** | Panel web móvil, cliente MCP y adaptadores de canal. |
+| **Servicios** | API, vinculación, órdenes y conciliación. |
+| **Paquetes** | Dominio wallet, contratos de API, SDK y adaptador a TilcAI. |
+| **Contratos** | Integración de smart accounts y reglas de gasto en Soroban. |
+| **Pruebas** | Aislamiento entre sesiones, liquidación, duplicados, congelación y recuperación. |
