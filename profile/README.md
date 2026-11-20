@@ -24,3 +24,7 @@ La vista de **Sesiones** reúne accesos de web y móvil, vínculos de canales y 
 ### Una tarjeta por sesión de agente
 
 Cada sesión habilitada para gastar tiene una subcuenta Stellar propia. La vista principal consolida los saldos y conserva el disponible de la cuenta principal. La tarjeta muestra saldo, gasto, compras en curso, límites y extracto. Dos instalaciones del mismo agente pueden operar con presupuestos independientes.
+
+### Control de acceso y gasto
+
+El diseño conserva la autoridad del dueño mediante una passkey. El firmante delegado de la sesión opera dentro de las reglas de su subcuenta. Cerrar el acceso invalida la credencial del cliente. Congelar bloquea nuevas solicitudes y el panel indica cuándo se confirma el cambio en Stellar. La revocación retira el permiso de gasto y permite recuperar el saldo una vez conciliados los pagos pendientes.
