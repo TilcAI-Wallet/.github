@@ -49,9 +49,9 @@ Cada instalación independiente tiene una sesión y su propia tarjeta. Renovar e
 
 | Agente | Cómo se conecta |
 | --- | --- |
-| **Claude** | Servidor MCP de TilcAI |
-| **Codex** | Servidor MCP de TilcAI |
-| **OpenCode** | Servidor MCP de TilcAI |
+| **Claude** | Servidor MCP de TilcAI Wallet |
+| **Codex** | Servidor MCP de TilcAI Wallet |
+| **OpenCode** | Servidor MCP de TilcAI Wallet |
 | **Otros clientes MCP** | Configuración genérica sujeta a compatibilidad de transporte y autorización. |
 
 ### 📡 Canales
@@ -185,7 +185,7 @@ flowchart LR
 
 ### 🧱 Construido sobre TilcAI
 
-El monorepo reutiliza [TilcAI](https://github.com/TilcAI/tilcai-infrastructure) para cuentas, WebAuthn, relayer y monitorización. MCP y Telegram adaptan los componentes existentes a la misma API, con un endpoint MCP canónico y una identidad de bot por entorno. [Monorepo oficial](https://github.com/TilcAI-Wallet/tilcai-wallet)
+El monorepo reutiliza [TilcAI](https://github.com/TilcAI/tilcai-infrastructure) para cuentas, WebAuthn, relayer y monitorización. El servidor MCP y el bot de Telegram se construyen en el monorepo sobre la misma API, con un endpoint MCP canónico y una identidad de bot por entorno. [Monorepo oficial](https://github.com/TilcAI-Wallet/tilcai-wallet)
 
 ## 🚦 Estado y validación
 
