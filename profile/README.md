@@ -129,14 +129,14 @@ sequenceDiagram
     D->>W: Fondea 25 USDC y fija el tope de 0,50
     A->>W: Solicita el primer informe por 0,50
     W->>P: Pago directo y verificación de entrega
-    W-->>A: Recibo; saldo 24,50 USDC
+    W-->>A: Recibo · saldo 24,50 USDC
     A->>W: Pide 0,50 adicionales para la segunda orden
     W-->>D: Aviso en el panel
     D->>W: Aprueba con passkey
     W-->>A: Nuevo tope de 1,00 confirmado
     A->>W: Retoma la misma orden tras revalidarla
     W->>P: Segundo pago directo de 0,50
-    W-->>D: Segundo recibo; saldo 24,00 USDC
+    W-->>D: Segundo recibo · saldo 24,00 USDC
 ```
 
 Con el primer pago, el saldo es **24,50** y el disponible del agente es **0,00**. Tras la segunda compra quedan **24,00 USDC**. El dueño congela, comprueba que se deniega otro intento, revoca y autoriza la devolución de los **24,00 USDC** a su cuenta principal. Las comisiones se registran aparte y el ejemplo supone patrocinio.
